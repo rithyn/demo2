@@ -1,5 +1,3 @@
-# Main Code Parts
-
 ## Options
 
 ### Definition
@@ -177,11 +175,12 @@ Most of the options are inherited from the usual custom games. A few more option
 |------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `ship_groups`    | array\<string\>      | An array containing some arrays, each of them representing one ship group (by name) available for selection. See the example below. The longer the array is, the lower chance for each ship group being available in a single match | See [[Deathmatch]] for a list of default ship groups. The mod won't run if `reset_tree` option is set to `true` without manually specifying the ship groups. **Please note** that the ship groups will be automatically set to only U-Sniper if `map_name` is set to "Battle of Titans". Please [[Easter Eggs#Battle of Titans|see here]] for more information. |
 
+Example:
 
-
-
-
-
-
-
+```js copy
+ship_groups: [
+  ["U-Sniper","Howler"],
+  ["Crusader","Pioneer"]
+]
+```
 
