@@ -4,14 +4,14 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <img src="https://starblast.io/static/img/icon64.png" alt="Logo" width="32" height="32"/>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/pmgl/starblast-modding',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.gg/85qN8F2gJf',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/rithyn/demo2',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Actual BETA/Demo of Starblast API Docs',
   },
 }
 
